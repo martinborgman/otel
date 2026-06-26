@@ -1,0 +1,111 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-06-14T16:21:05Z",
+      "resolved": "github:NixOS/nixpkgs/9eac87a12312b8f60dd52e1c6e1a265f6fc7f5fc?lastModified=1781454065"
+    },
+    "graalvmPackages.graalvm-ce@latest": {
+      "last_modified": "2026-05-21T08:15:18Z",
+      "resolved": "github:NixOS/nixpkgs/4a29d733e8a7d5b824c3d8c958a946a9867b3eb2#graalvmPackages.graalvm-ce",
+      "source": "devbox-search",
+      "version": "25.0.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/416qkgy5pfvs520nmgnzsqa3b7v20r94-graalvm-ce-25.0.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/416qkgy5pfvs520nmgnzsqa3b7v20r94-graalvm-ce-25.0.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h9va2078051fzjqlq9147q8bn9623dwm-graalvm-ce-25.0.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h9va2078051fzjqlq9147q8bn9623dwm-graalvm-ce-25.0.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kcha0gpn0pncdiji0g3rxjgzyk5xy05v-graalvm-ce-25.0.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kcha0gpn0pncdiji0g3rxjgzyk5xy05v-graalvm-ce-25.0.2"
+        }
+      }
+    },
+    "httpie@latest": {
+      "last_modified": "2026-05-21T08:15:18Z",
+      "resolved": "github:NixOS/nixpkgs/4a29d733e8a7d5b824c3d8c958a946a9867b3eb2#httpie",
+      "source": "devbox-search",
+      "version": "3.2.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bkdjfbfibr857f2vb4ixx7vmnr71jx1m-python3.13-httpie-3.2.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/j5hy5pla626a39x1c2qx3ypnjx6al0rj-python3.13-httpie-3.2.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/bkdjfbfibr857f2vb4ixx7vmnr71jx1m-python3.13-httpie-3.2.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xz68w6mznzrw8bla9lk6jyb22nxdn45j-python3.13-httpie-3.2.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/y5lri97pzgdi420bm1ibqv7v2am8qb59-python3.13-httpie-3.2.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/xz68w6mznzrw8bla9lk6jyb22nxdn45j-python3.13-httpie-3.2.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9cnkaqfwrxscxlavkf7jzkq0czc7bpnz-python3.13-httpie-3.2.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/v8dzvxgd6izgbcmxzkjzbwiyyriqrdvf-python3.13-httpie-3.2.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/9cnkaqfwrxscxlavkf7jzkq0czc7bpnz-python3.13-httpie-3.2.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/180fl24ab5dqdhxqaq9z4as95z3ibrdj-python3.13-httpie-3.2.4",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/z196mpyrxmfkcrv58vljyw69nyl0vvy4-python3.13-httpie-3.2.4-dist"
+            }
+          ],
+          "store_path": "/nix/store/180fl24ab5dqdhxqaq9z4as95z3ibrdj-python3.13-httpie-3.2.4"
+        }
+      }
+    }
+  }
+}
